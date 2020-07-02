@@ -6,9 +6,9 @@ It works by auto-clicking any button that has the word "Next" or "Start" in it (
 
 ## Instructions:
 
-[Skip Training](javascript:(function(){const a=a=>!!(0<=a.innerText.toLowerCase().indexOf("Start".toLowerCase()))||!!(0<=a.innerText.toLowerCase().indexOf("Next".toLowerCase()))||void 0,b=()=>{window.hiveHackTimer=setInterval(()=>{let b=!1,c=document.querySelectorAll("button");if(c.forEach(c=>{!b&&a(c)&&(c.click(),b=!0)}),!b){let a=document.querySelectorAll("[title=\"next\"]");a.forEach(a=>{b||(a.click(),b=!0)})}},500)};"undefined"==typeof window.hiveHackTimerIsRunning?(b(),window.hiveHackTimerIsRunning=!0):"undefined"!=typeof window.hiveHackTimer&&!0===window.hiveHackTimerIsRunning?(clearInterval(window.hiveHackTimer),window.hiveHackTimerIsRunning=!1):(b(),window.hiveHackTimerIsRunning=!0)})();)
+<a href="javascript:(function(){const a=a=>!!(0<=a.innerText.toLowerCase().indexOf("Start".toLowerCase()))||!!(0<=a.innerText.toLowerCase().indexOf("Next".toLowerCase()))||void 0,b=()=>{window.hiveHackTimer=setInterval(()=>{let b=!1,c=document.querySelectorAll("button");if(c.forEach(c=>{!b&&a(c)&&(c.click(),b=!0)}),!b){let a=document.querySelectorAll("[title=\"next\"]");a.forEach(a=>{b||(a.click(),b=!0)})}},500)};"undefined"==typeof window.hiveHackTimerIsRunning?(b(),window.hiveHackTimerIsRunning=!0):"undefined"!=typeof window.hiveHackTimer&&!0===window.hiveHackTimerIsRunning?(clearInterval(window.hiveHackTimer),window.hiveHackTimerIsRunning=!1):(b(),window.hiveHackTimerIsRunning=!0)})();" title="Skip it!">Skip Training</a>
 
-1. Drag this link to your bookmark bar.
+1. Drag that link 👆🏻 to your bookmark bar.
 2. Open the training course in the 'Content Player' popup window.
 3. In Google Chrome, select Window > Show As Tab. You should now see your bookmark bar with the 'Skip Training' link in it; if you don't see the bookmarks bar, go to View > Always Show Bookmarks Bar.
 4. Click the 'Skip Training' bookmark.
