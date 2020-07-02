@@ -6,14 +6,14 @@ It works by auto-clicking any button that has the word "Next" or "Start" in it (
 
 ## Instructions:
 
-<a href="javascript:(function(){const a=a=>!!(0<=a.innerText.toLowerCase().indexOf("Start".toLowerCase()))||!!(0<=a.innerText.toLowerCase().indexOf("Next".toLowerCase()))||void 0,b=()=>{window.hiveHackTimer=setInterval(()=>{let b=!1,c=document.querySelectorAll("button");if(c.forEach(c=>{!b&&a(c)&&(c.click(),b=!0)}),!b){let a=document.querySelectorAll("[title=\"next\"]");a.forEach(a=>{b||(a.click(),b=!0)})}},500)};"undefined"==typeof window.hiveHackTimerIsRunning?(b(),window.hiveHackTimerIsRunning=!0):"undefined"!=typeof window.hiveHackTimer&&!0===window.hiveHackTimerIsRunning?(clearInterval(window.hiveHackTimer),window.hiveHackTimerIsRunning=!1):(b(),window.hiveHackTimerIsRunning=!0)})();" title="Skip it!">Skip Training</a>
-
-[Skip Training](javascript:(function(){const a=a=>!!(0<=a.innerText.toLowerCase().indexOf("Start".toLowerCase()))||!!(0<=a.innerText.toLowerCase().indexOf("Next".toLowerCase()))||void 0,b=()=>{window.hiveHackTimer=setInterval(()=>{let b=!1,c=document.querySelectorAll("button");if(c.forEach(c=>{!b&&a(c)&&(c.click(),b=!0)}),!b){let a=document.querySelectorAll("[title=\"next\"]");a.forEach(a=>{b||(a.click(),b=!0)})}},500)};"undefined"==typeof window.hiveHackTimerIsRunning?(b(),window.hiveHackTimerIsRunning=!0):"undefined"!=typeof window.hiveHackTimer&&!0===window.hiveHackTimerIsRunning?(clearInterval(window.hiveHackTimer),window.hiveHackTimerIsRunning=!1):(b(),window.hiveHackTimerIsRunning=!0)})();)
-
 <script>
-  let el = document.createElement('div')
-  el.innerText = 'hello world'
-  document.appendChild(el)
+  let el = document.createElement('a');
+  el.href = 'javascript:(function(){const a=a=>!!(0<=a.innerText.toLowerCase().indexOf("Start".toLowerCase()))||!!(0<=a.innerText.toLowerCase().indexOf("Next".toLowerCase()))||void 0,b=()=>{window.hiveHackTimer=setInterval(()=>{let b=!1,c=document.querySelectorAll("button");if(c.forEach(c=>{!b&&a(c)&&(c.click(),b=!0)}),!b){let a=document.querySelectorAll("[title=\"next\"]");a.forEach(a=>{b||(a.click(),b=!0)})}},500)};"undefined"==typeof window.hiveHackTimerIsRunning?(b(),window.hiveHackTimerIsRunning=!0):"undefined"!=typeof window.hiveHackTimer&&!0===window.hiveHackTimerIsRunning?(clearInterval(window.hiveHackTimer),window.hiveHackTimerIsRunning=!1):(b(),window.hiveHackTimerIsRunning=!0)})();';
+  el.innerText = 'Skip Training';
+  el.title = 'Skip Training';
+  el.style = "padding: 0.5em 1em;margin: 1em 0;background: #333;border: 1px solid #666;border-radius: 4px;display: inline-block;";
+  const referenceNode = document.querySelector("#instructions");
+  referenceNode.parentNode.insertBefore(el, referenceNode.nextSibling);
 </script>
 
 1. Drag that link 👆🏻 to your bookmark bar.
