@@ -25,7 +25,7 @@
 
       // If nothing's been clicked yet (i.e. there are no Submit or Next or Start buttons), try looking for links that are intended to move the presentation forward
       if (!clicked) {
-        let links = document.querySelectorAll('[title="next"]');
+        let links = document.querySelectorAll('[title=next]');
         links.forEach((link) => {
           if(!clicked) {
             link.click();
